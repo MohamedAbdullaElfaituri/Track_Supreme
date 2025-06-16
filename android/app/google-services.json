@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "716458102186",
+    "project_id": "track-supreme-26657",
+    "storage_bucket": "track-supreme-26657.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716458102186:android:96f8bb75f646b221dfafd3",
+        "android_client_info": {
+          "package_name": "com.example.track_supreme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716458102186-rr4hd8846cfhnhog5pejigs97p41qlmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.track_supreme",
+            "certificate_hash": "1613084dadce2dbb0315e48fcf42c27d57b38041"
+          }
+        },
+        {
+          "client_id": "716458102186-o9v6dtrapm1r8n76ra8rlr334o0vs2eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoUDNxRZjduQPTIcBSkAo_yl_vSswM_Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716458102186-m2va74t0esanccmohfqm0l02nek5pmlf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716458102186-0fmk4r3ard0cevj370gk0q0j55c4kgqa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.trackSupreme"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
