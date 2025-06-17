@@ -3,7 +3,7 @@
 **Müşteri Takip Programı**  
 Email, Google ve GitHub ile Giriş/Kayıt, Supabase ve Firebase ile Veri Saklama, Çoklu Platform Desteği (Android, iOS, Windows, Web)  
 
-![Track Supreme Logo](assets/images/track_supreme_logo.png)
+![Track Supreme Logo](assets/images/logo.png)
 
 ---
 
