@@ -1,106 +1,119 @@
+# Track Supreme 
 
-# Track Supreme
+**Müşteri Takip Programı**  
+Email, Google ve GitHub ile Giriş/Kayıt, Supabase ve Firebase ile Veri Saklama, Çoklu Platform Desteği (Android, iOS, Windows, Web)  
 
-![Track Supreme Logo](assets/images/logo.png)  
-*Track Supreme uygulamasının logosu*
-
-
-## Giriş
-
-Track Supreme, kullanıcıların e-posta, Google veya GitHub hesaplarıyla kolayca giriş yaparak kargo takip numaralarını tek bir uygulamada yönetebileceği modern ve güvenli bir platformdur. Anlık kargo durumu güncellemeleri ile kargolarınızı her an takip edebilirsiniz.
-
-
-## Özellikler
-
-| ![Ana Ekran](assets/images/home_screen.png) | ![Profil Sayfası](assets/images/profile_screen.png) |
-|:------------------------------------------:|:-------------------------------------------------:|
-| *Kargo takip ana ekranı*                    | *Kullanıcı profil ve ayarları*                     |
-
-- Çoklu giriş desteği: E-posta, Google, GitHub  
-- Gerçek zamanlı kargo takibi  
-- Profil resmi yükleme ve kişisel bilgileri güncelleme  
-- Drawer menüsü ile hızlı navigasyon  
-- Farklı kargo firmalarının tek bir uygulamada takibi  
-- Lokal önbellekleme ile offline kullanım (SQLite opsiyonel)
-
-
-
-## Teknolojiler
-
-![Flutter](assets/images/technologies/flutter.png) ![Firebase](assets/images/technologies/firebase.png) ![Supabase](assets/images/technologies/supabase.png) ![Google Cloud](assets/images/technologies/google_cloud.png)
-
-- **Flutter & Dart:** Platformlar arası geliştirme  
-- **Firebase:** Authentication, Firestore, Cloud Functions  
-- **Supabase:** Kullanıcı profili ve veri yönetimi  
-- **Google Cloud:** API yönetimi ve arka plan servisleri  
-- **REST API & JSON:** Kargo takip verisi aktarımı  
-- **SQLite (opsiyonel):** Lokal önbellekleme ve performans artışı
-- **SharedPreferences:**   Küçük verilerin (ayarlar, tercihler vb.) cihazda kalıcı olarak saklanması için kullanılır.
-
-
-
-## Kurulum ve Çalıştırma
-
-1. Projeyi klonlayın:  
-    ```bash
-    git clone https://github.com/yourusername/track-supreme.git
-    cd track-supreme
-    ```
-2. Gerekli paketleri yükleyin:  
-    ```bash
-    flutter pub get
-    ```
-3. Firebase ve Supabase yapılandırmalarını yapın (config dosyalarını düzenleyin).  
-4. Web platformunda sabit port ile çalıştırmak için:  
-    ```bash
-    flutter run -d chrome --web-port=5000
-    ```
-5. Uygulamayı başlatın:  
-    ```bash
-    flutter run
-    ```
+![Track Supreme Logo](assets/images/track_supreme_logo.png)
 
 ---
 
-## Kullanım Kılavuzu
+##  Proje Özeti
 
-### Giriş Yapma  
-![Giriş Ekranı](assets/images/login_screen.png)  
-- E-posta, Google veya GitHub ile hızlı ve güvenli giriş yapabilirsiniz.
-
-### Kargo Takip  
-![Kargo Takip](assets/images/track_package.png)  
-- Takip numarası ekleyip anlık kargo durumunuzu görüntüleyebilirsiniz.
-
-### Profil Yönetimi  
-![Profil Düzenleme](assets/images/profile_edit.png)  
-- İsim, e-posta ve profil resminizi kolayca güncelleyebilirsiniz.
+Track Supreme, kullanıcıların ürün/kargo takip numaralarını girerek anlık durumlarını görebildiği, profil bilgilerini yönetebildiği gelişmiş bir müşteri takip uygulamasıdır.  
+Güçlü kimlik doğrulama, geniş veri saklama altyapısı ve çoklu platform uyumu ile modern müşteri deneyimi sunar.
 
 ---
 
-## Katkıda Bulunanlar
+##  Sayfa Bazlı Detaylar
 
-| İsim          | Rol                | Sorumluluklar                       |
-|---------------|--------------------|-----------------------------------|
-| Emad | Frontend & API     | UI tasarımı, temel işlevsellik    |
-| Mohamed Abdulla Elfaituri | Backend & Optimizasyon | Gelişmiş özellikler, güvenlik    |
+### 1. Giriş / Kayıt Sayfası  
+- Email, Google, GitHub ile güvenli oturum açma.  
+- Kullanıcı bilgileri Firebase Auth ile doğrulanır.  
+- Kaydolma ve şifre kurtarma desteği.  
 
----
-
-## Gelecek Özellikler
-
-- Firebase Cloud Functions ile otomatik güncellemeler  
-- Supabase ile gelişmiş profil senkronizasyonu  
-- Gelişmiş hata yönetimi  
-- API limit ve hata tolerans mekanizmaları  
-- Push notification entegrasyonu  
-- UI/UX iyileştirmeleri ve animasyonlar  
+![Login Screen](assets/images/login_screen.png)
 
 ---
 
-## Lisans
+### 2. Ana Sayfa (Home)  
+- Takip numarası giriş alanı.  
+- Kargo/ürün durumu gerçek zamanlı gösterim.  
+- GitHub’dan çekilen JSON dosyasına bağlı güncel kargo bilgisi.  
 
-MIT Lisansı altında lisanslanmıştır. (İsterseniz değiştirebilirsiniz.)
+![Home Screen](assets/images/home_screen.png)
 
 ---
 
+### 3. Drawer Menü  
+- Kolay gezinme için özel Drawer.  
+- Profil resmi ve kullanıcı adı gösterimi.  
+- Hızlı erişim: Ana Sayfa, Ayarlar, Hakkımızda, İletişim ve Çıkış.  
+
+![Drawer](assets/images/custom_drawer.png)
+
+---
+
+### 4. Ayarlar (Settings)  
+- Profil bilgileri düzenleme: isim, soyisim, doğum tarihi, profil fotoğrafı.  
+- Veriler Firebase ve Supabase’e senkronize edilir.  
+
+![Settings Screen](assets/images/settings_screen.png)
+
+---
+
+### 5. Hakkımızda (About Us)  
+- Proje ve ekip hakkında detaylı bilgi.  
+- İletişim bilgileri ve sosyal medya linkleri.  
+
+![About Us](assets/images/about_us.png)
+
+---
+
+### 6. İletişim (Contact)  
+- Kullanıcı geri bildirimi için form.  
+- E-posta ve telefon bilgileri.  
+
+![Contact Screen](assets/images/contact_screen.png)
+
+---
+
+##  Kullanılan Teknolojiler
+
+| Teknoloji         | Rolü                                   |
+|-------------------|---------------------------------------|
+| Flutter           | Cross-platform UI framework            |
+| Firebase Auth     | Kimlik doğrulama ve kullanıcı yönetimi|
+| Supabase          | Veri tabanı, kullanıcı ve takip verileri |
+| SQLite            | Offline veri saklama                    |
+| SharedPreferences | Yerel uygulama ayarları                 |
+| GitHub API        | Kargo bilgisi JSON dosyasının çekilmesi |
+
+---
+
+## 📁 Dosya Yapısı
+
+```plaintext
+/lib
+  ├── main.dart
+  ├── screens/
+  │   ├── home_screen.dart
+  │   ├── login_screen.dart
+  │   ├── settings_screen.dart
+  │   ├── about_us.dart
+  │   ├── contact.dart
+  ├── widgets/
+  │   ├── custom_drawer.dart
+  │   ├── custom_appbar.dart
+  ├── services/
+  │   ├── auth_service.dart
+  │   ├── supabase_service.dart
+  │   ├── json_data_service.dart
+  ├── models/
+  │   └── user_model.dart
+  └── utils/
+      └── constants.dart
+/assets
+  └── images/
+      ├── track_supreme_logo.png
+      ├── login_screen.png
+      ├── home_screen.png
+      ├── custom_drawer.png
+      ├── settings_screen.png
+      ├── about_us.png
+      ├── contact_screen.png
+      ├── google_icon.png
+      ├── github_icon.png
+      ├── user_avatar_placeholder.png
+      ├── calendar_icon.png
+      ├── email_icon.png
+      └── phone_icon.png
