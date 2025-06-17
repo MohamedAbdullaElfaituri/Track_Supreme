@@ -90,6 +90,7 @@ Güçlü kimlik doğrulama, geniş veri saklama altyapısı ve çoklu platform u
 ##  Dosya Yapısı
 
 ```plaintext
+
 /lib
   ├── main.dart
   ├── firebase_options.dart
@@ -111,22 +112,23 @@ Güçlü kimlik doğrulama, geniş veri saklama altyapısı ve çoklu platform u
                         ├── phone_icon.png
                         ├── github_logo.png
                         ├── google_logo.png
-      ├── drawer/
-          │   ├── custom_app_bar.dart
-          │   ├── Drawer_Widget.dart
-      ├── models/
-          │   ├── user_profile.dart
-      ├── screens/
-          │   ├── home_screen.dart
-          │   ├── login_screen.dart
-          │   ├── settings_screen.dart
-          │   ├── about_us.dart
-          │   ├── contact.dart
-          │   ├── signup_screen.dart
-          │   ├── track_cargo_screen.dart
-      ├── services/
-          │   ├── auth_service.dart
-          │   ├── cargo_service.dart
-          │   ├── shared_preferences_service.dart
-          │   ├── sqlite_helper.dart
-          │   ├── supabase_service.dart
+            ├── drawer/
+                │   ├── custom_app_bar.dart
+                │   ├── Drawer_Widget.dart
+            ├── models/
+                │   ├── user_profile.dart
+            ├── screens/
+                │   ├── home_screen.dart
+                │   ├── login_screen.dart
+                │   ├── settings_screen.dart
+                │   ├── about_us.dart
+                │   ├── contact.dart
+                │   ├── signup_screen.dart
+                │   ├── track_cargo_screen.dart
+            ├── services/
+                │   ├── auth_service.dart
+                │   ├── cargo_service.dart
+                │   ├── shared_preferences_service.dart
+                │   ├── sqlite_helper.dart
+                │   ├── supabase_service.dart
+      
