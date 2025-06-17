@@ -85,35 +85,41 @@ Güçlü kimlik doğrulama, geniş veri saklama altyapısı ve çoklu platform u
 ```plaintext
 /lib
   ├── main.dart
-  ├── screens/
-  │   ├── home_screen.dart
-  │   ├── login_screen.dart
-  │   ├── settings_screen.dart
-  │   ├── about_us.dart
-  │   ├── contact.dart
-  ├── widgets/
-  │   ├── custom_drawer.dart
-  │   ├── custom_appbar.dart
-  ├── services/
-  │   ├── auth_service.dart
-  │   ├── supabase_service.dart
-  │   ├── json_data_service.dart
-  ├── models/
-  │   └── user_model.dart
-  └── utils/
-      └── constants.dart
-/assets
-  └── images/
-      ├── track_supreme_logo.png
-      ├── login_screen.png
-      ├── home_screen.png
-      ├── custom_drawer.png
-      ├── settings_screen.png
-      ├── about_us.png
-      ├── contact_screen.png
-      ├── google_icon.png
-      ├── github_icon.png
-      ├── user_avatar_placeholder.png
-      ├── calendar_icon.png
-      ├── email_icon.png
-      └── phone_icon.png
+  ├── firebase_options.dart
+  ├── public/
+        │   ├── assets/
+                 └── images/
+                        ├── track_supreme_logo.png
+                        ├── login_screen.png
+                        ├── home_screen.png
+                        ├── custom_drawer.png
+                        ├── settings_screen.png
+                        ├── about_us.png
+                        ├── contact_screen.png
+                        ├── google_icon.png
+                        ├── github_icon.png
+                        ├── user_avatar_placeholder.png
+                        ├── calendar_icon.png
+                        ├── email_icon.png
+                        ├── phone_icon.png
+                        ├── github_logo.png
+                        ├── google_logo.png
+      ├── drawer/
+          │   ├── custom_app_bar.dart
+          │   ├── Drawer_Widget.dart
+      ├── models/
+          │   ├── user_profile.dart
+      ├── screens/
+          │   ├── home_screen.dart
+          │   ├── login_screen.dart
+          │   ├── settings_screen.dart
+          │   ├── about_us.dart
+          │   ├── contact.dart
+          │   ├── signup_screen.dart
+          │   ├── track_cargo_screen.dart
+      ├── services/
+          │   ├── auth_service.dart
+          │   ├── cargo_service.dart
+          │   ├── shared_preferences_service.dart
+          │   ├── sqlite_helper.dart
+          │   ├── supabase_service.dart
