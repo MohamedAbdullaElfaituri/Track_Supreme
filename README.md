@@ -18,8 +18,7 @@ Güçlü kimlik doğrulama, geniş veri saklama altyapısı ve çoklu platform u
 
 ### 1. Giriş / Kayıt Sayfası  
 - Email, Google, GitHub ile güvenli oturum açma.  
-- Kullanıcı bilgileri Firebase Auth ile doğrulanır.  
-- Kaydolma ve şifre kurtarma desteği.  
+- Kullanıcı bilgileri Firebase Auth ile doğrulanır.   
 
 ![Login Screen](assets/images/login_screen.png)
 
@@ -53,7 +52,7 @@ Güçlü kimlik doğrulama, geniş veri saklama altyapısı ve çoklu platform u
 
 ### 5. Hakkımızda (About Us)  
 - Proje ve ekip hakkında detaylı bilgi.  
-- İletişim bilgileri ve sosyal medya linkleri.  
+- İletişim bilgileri.  
 
 ![About Us](assets/images/about_us.png)
 
@@ -79,6 +78,14 @@ Güçlü kimlik doğrulama, geniş veri saklama altyapısı ve çoklu platform u
 | GitHub API        | Kargo bilgisi JSON dosyasının çekilmesi |
 
 ---
+
+## 👥 Katkıda Bulunanlar
+
+| İsim                        | Katkı Detayları |
+|-----------------------------|----------------|
+| **Mohamed Abdulla Elfaituri** | 🔧 Uygulamanın tam geliştirilmesi, <br> 🔐 Firebase Authentication kurulumu ve tüm giriş metodları (Email, Google, GitHub), <br> 🧾 Firebase Firestore ile kullanıcı bilgileri yönetimi, <br> 🛢️ Supabase veritabanı yapısı ve bağlantıları, <br> 💾 SharedPreferences ile yerel veri saklama, <br> 📦 SQLite ile offline destek entegrasyonu, <br> 🌐 API'den JSON veri çekme ve gösterme (GitHub üzerinden), <br> 🖼️ UI ekranlarının hazırlanması, AppBar/Drawer yapısı, <br> 🛡️ Güvenlik ve kullanıcı verilerinin senkronizasyonu |
+| **IMAD ALSHEIKH BAKRI** | 💡 UI testleri ve öneriler, <br> 📱 UX geliştirmeye yardımcı fikirler, <br> 🧪 Fonksiyonel testlerde destek, <br> 🎨 Görsel düzenleme katkısı |
+
 
 ## 📁 Dosya Yapısı
 
